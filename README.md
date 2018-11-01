@@ -4,7 +4,7 @@ qstruct is Go library for decoding url values into struct
 # Usage
 
 ```go
-import "github.com/01m/qstruct/qstruct"
+import "github.com/01m/qstruct"
 ```
 
 ```go
@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/01m/qstruct/qstruct"
+	"github.com/01m/qstruct"
 )
 
 type structA struct {
